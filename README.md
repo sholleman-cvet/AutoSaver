@@ -10,7 +10,7 @@ Auto saves a window of your choosing once it has been focused for a certain amou
 * Alt + X to Exit the script.
 
 ## Usage
-* Edit the global variables in AutoSaver.ahk to your preferences
+* Edit the AutoSaver.ini file with your preferences
     
     * **targetWindowTitle** - This can be hardcoded, alternatively you can use the hotkey combo Alt + C to set the target window to the current active window.
     * **saveFrequency** - Seconds between auto saves. The target window must be focused for this amount of time, when a different window takes focus the time pauses until the target window is refocused.

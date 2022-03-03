@@ -1,6 +1,8 @@
 SendMode, Input 
 SetTitleMatchMode, 3 
+SetWorkingDir, A_ScriptDir
 
+; Globals
 IniRead, targetWindowTitle, AutoSaver.ini, Config, targetWindowTitle, %A_SPACE%
 IniRead, saveFrequency, AutoSaver.ini, Config, saveFrequency, 300
 IniRead, idleThreshold, AutoSaver.ini, Config, idleThreshold, 300
@@ -18,6 +20,7 @@ While (true) {
 	Sleep, 1000
 }
 
+; Hotkeys
 !c:: ; alt + c will make the current active window the new target window for auto save
 WinGetTitle, targetWindowTitle, A 
 MsgBox, Target Window: %targetWindowTitle% 
