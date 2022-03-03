@@ -2,16 +2,12 @@
 
 Auto saves a window of your choosing once it has been focused for a certain amount of time. 
 
-
-
-# Getting Started
 ## Prerequisites
 * [AutoHotkey](https://www.autohotkey.com/download/?)
 
 ## Hotkeys
 * Alt + C to Change the target window to the focused window.
 * Alt + X to Exit the script.
-
 
 ## Usage
 * Edit the global variables in AutoSaver.ahk to your preferences
