@@ -3,7 +3,7 @@ SetTitleMatchMode, 3 ; https://www.autohotkey.com/docs/commands/SetTitleMatchMod
 
 ; globals
 targetWindowTitle = "" ; name of window to auto save. Hardcode it or use the hotkey below to set this to the current window
-saveFrequency := 10 ; seconds between auto saves
+saveFrequency := 300 ; seconds between auto saves
 idleThreshold := 300 ; miliseconds keyboard/mouse need to be idle for the script to send ctrl + s to save 
 secondsSinceSave := 0 ; seconds since last save, don't change this value
 
