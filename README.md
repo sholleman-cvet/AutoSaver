@@ -12,7 +12,7 @@ AutoSaves a window of your choice as often as you'd like.
     
     * **targetWindowTitle** - This can be hardcoded, alternatively you can use the hotkey combo Alt + C to set the window on startup.
     * **saveFrequency** - Number of seconds between auto saves.
-    * **idleThreshold** - Number of miliseconds needed of no mouse and keyboard input before the script sends Ctrl + S to save the window. This prevents the hotkey from interfering with your work.
+    * **idleThreshold** - Number of milliseconds needed of no mouse and keyboard input before the script sends Ctrl + S to save the window. This prevents the hotkey from interfering with your work.
 
 * Double click AutoSaver.ahk file to start the script
 * Press Alt + C to start auto saving the current window if no targetWindowTitle is  hardcoded.
