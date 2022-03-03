@@ -14,8 +14,8 @@ idleThreshold := 300 ; miliseconds keyboard/mouse need to be idle for the script
 secondsSinceSave := 0 ; seconds since last save, don't change this value
 
 While (true) {	
-	while (WinActive(targetWindowTitle)) {
-		if ((secondsSinceSave >= saveFrequency) && (A_TimeIdlePhysical > idleThreshold)) {
+	While (WinActive(targetWindowTitle)) {
+		If ((secondsSinceSave >= saveFrequency) && (A_TimeIdlePhysical > idleThreshold)) {
 			SendInput, ^s
 			secondsSinceSave := 0
 		}
