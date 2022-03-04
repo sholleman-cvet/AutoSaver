@@ -7,6 +7,7 @@ Auto saves a window of your choosing once it has been focused for a certain amou
 
 ## Hotkeys
 * Alt + C to Change the target window to the focused window.
+* Alt + V to Show values of variables
 * Alt + X to Exit the script.
 
 ## Usage

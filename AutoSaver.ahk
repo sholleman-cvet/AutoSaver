@@ -27,8 +27,8 @@ WinGetTitle, targetWindowTitle, A
 MsgBox, Target Window: %targetWindowTitle% 
 Return
 
-; Alt + I shows helpful information
-!i::
+; Alt + V shows values of each variable
+!v::
 MsgBox,
 (LTrim
 	Target Window: %targetWindowTitle%
